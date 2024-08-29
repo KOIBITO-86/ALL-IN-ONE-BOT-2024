@@ -7,13 +7,11 @@ module.exports = {
   
         const activities = [
             { name: '4 Th great ninja war', type: ActivityType.Watching },
-            { name: 'With Sasuke', type: ActivityType.Playing },
-            { name: 'on YouTube', type: ActivityType.Streaming },
-            { name: 'To Spotify', type: ActivityType.Listening },
+          
         ];
 
      
-        const statuses = ['online', 'idle', 'dnd'];
+        const statuses = ['online'];
 
      
         let currentActivityIndex = 0;
